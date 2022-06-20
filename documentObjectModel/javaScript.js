@@ -22,8 +22,9 @@ hOne.textContent = 'Im in a div';
 divTwo.appendChild(hOne);
 
 const para = document.createElement('p');
-para.textContent = 'Mee too!';
+para.textContent = 'Me too!';
 divTwo.appendChild(para);
-
-
 container.appendChild(divTwo);
+
+const btnOne = document.querySelector('#btnOne');
+btnOne.onclick = () => alert("Hello World");
