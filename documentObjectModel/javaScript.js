@@ -12,3 +12,18 @@ hthree.classList.add('blueh3');
 hthree.textContent = 'Im a blue h3';
 hthree.setAttribute('style' , 'color:blue;');
 container.appendChild(hthree);
+
+const divTwo = document.createElement('div');
+divTwo.classList.add('divTwoo');
+divTwo.setAttribute('style', 'border:black; background:pink;');
+
+const hOne = document.createElement('h1');
+hOne.textContent = 'Im in a div';
+divTwo.appendChild(hOne);
+
+const para = document.createElement('p');
+para.textContent = 'Mee too!';
+divTwo.appendChild(para);
+
+
+container.appendChild(divTwo);
